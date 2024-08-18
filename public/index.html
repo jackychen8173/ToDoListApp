@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<div class="container">
-    <div class= "todo-app">
-        <h2>To-Do List</h2>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List</h2>
             <div class="row">
                 <input type="text" id="input-box" placeholder="Add your text">
-                <button onclick="addTask()">Add</button>
+                <button id="add-btn">Add</button>
             </div>
-            <ul id="list-container">
-                <!-- <li class="checked">Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li> -->
+            <ul id="task-list">
             </ul>
+        </div>
     </div>
-</div>
-<script src="script.js">
-
-</script>
+    <script src="script.js"></script>
 </body>
+
 </html>
